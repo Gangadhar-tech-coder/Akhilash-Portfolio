@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bogala Akhilash Reddy | AI/ML Engineer & Full Stack Developer</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Portfolio of Bogala Akhilash Reddy, an aspiring AI/ML Engineer and Full Stack Developer. Specializing in Python, Machine Learning, Web Development, and solving complex problems.">
+    <meta name="keywords" content="Bogala Akhilash Reddy, Portfolio, AI/ML Engineer, Full Stack Developer, Python Developer, Malla Reddy Engineering College, Hyderabad, Hyderabad Software Engineer">
+    <meta name="author" content="Bogala Akhilash Reddy">
+    
+    <!-- Open Graph Tags (Facebook, LinkedIn) -->
+    <meta property="og:title" content="Bogala Akhilash Reddy | AI/ML Engineer & Full Stack Developer">
+    <meta property="og:description" content="Explore the portfolio of Bogala Akhilash Reddy, showcasing AI/ML and Full Stack projects, skills, education, and achievements.">
+    <meta property="og:image" content="assets/profile.jpeg">
+    <meta property="og:url" content="https://bogala-akhilash-reddy.vercel.app">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bogala Akhilash Reddy | AI/ML Engineer & Full Stack Developer">
+    <meta name="twitter:description" content="Explore the portfolio of Bogala Akhilash Reddy, showcasing AI/ML and Full Stack projects, skills, education, and achievements.">
+    <meta name="twitter:image" content="assets/profile.jpeg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- AOS (Animate On Scroll) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-glow"></div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <!-- 1. LOADER -->
+    <div id="loader" class="loader-container">
+        <div class="loader-content">
+            <span class="loader-logo">AR</span>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" aria-label="Home">
+                <span class="logo-accent">&lt;</span>AR<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Timeline</a></li>
+                    <li class="nav-item"><a href="#certifications" class="nav-link">Credentials</a></li>
+                    <li class="nav-item"><a href="#github" class="nav-link">GitHub</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                
+                <!-- Resume Download (Header Link) -->
+                <a href="assets/resume.pdf" class="btn btn-primary nav-resume-btn" download="Bogala_Akhilash_Reddy_Resume.pdf">
+                    <i class="fa-solid fa-download"></i> Resume
+                </a>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Mobile Menu" aria-controls="nav-menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        
+        <!-- 2. HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div id="particles-js" class="particles-bg"></div>
+            <div class="hero-glow-bg"></div>
+            <div class="container hero-container">
+                <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span> Available for Opportunities
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <br>
+                        <span class="name-gradient">BOGALA AKHILASH REDDY</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span id="typed-text" class="typed-text"></span>
+                    </h2>
+                    <p class="hero-desc">
+                        Building intelligent solutions through AI, Machine Learning, Full Stack Development, and innovative technologies.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="assets/resume.pdf" class="btn btn-primary" download="Bogala_Akhilash_Reddy_Resume.pdf">
+                            <i class="fa-solid fa-file-pdf"></i> Download Resume
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <i class="fa-solid fa-code"></i> View Projects
+                        </a>
+                        <a href="#contact" class="btn btn-glow">
+                            <i class="fa-solid fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon-btn">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/bogala-akhilash-reddy-9116203a0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon-btn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:akhilashreddybogala@gmail.com" aria-label="Email" class="social-icon-btn">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919346749462" aria-label="Phone" class="social-icon-btn">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="profile-card-wrapper">
+                        <!-- Profile Card Glow Border -->
+                        <div class="profile-card-glow"></div>
+                        <div class="profile-card">
+                            <div class="profile-image-container">
+                                <img src="assets/profile.jpeg" alt="Bogala Akhilash Reddy Portrait" class="profile-img" loading="lazy">
+                            </div>
+                        </div>
+                        
+                        <!-- Floating Tech Tags -->
+                        <div class="floating-tech tech-py" data-speed="1.2">
+                            <i class="fa-brands fa-python"></i> <span>Python</span>
+                        </div>
+                        <div class="floating-tech tech-tf" data-speed="1.8">
+                            <i class="fa-solid fa-brain"></i> <span>TensorFlow</span>
+                        </div>
+                        <div class="floating-tech tech-react" data-speed="1.5">
+                            <i class="fa-brands fa-react"></i> <span>React</span>
+                        </div>
+                        <div class="floating-tech tech-db" data-speed="2.0">
+                            <i class="fa-solid fa-database"></i> <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-indicator" aria-label="Scroll down to About section">
+                <span class="mouse-icon">
+                    <span class="wheel"></span>
+                </span>
+                <span class="scroll-arrow"></span>
+            </a>
+        </section>
+
+        <!-- 3. ABOUT SECTION -->
+        <section id="about" class="about-section sec-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-heading">Who I Am</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card" data-aos="fade-right" data-aos-delay="100">
+                        <div class="about-card-header">
+                            <div class="terminal-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="terminal-title">biography.py</span>
+                        </div>
+                        <div class="about-card-body">
+                            <pre><code><span class="code-keyword">class</span> <span class="code-class">Developer</span>:
+    <span class="code-keyword">def</span> <span class="code-method">__init__</span>(self):
+        self.name = <span class="code-string">"Bogala Akhilash Reddy"</span>
+        self.role = <span class="code-string">"AI/ML & Full Stack Developer"</span>
+        self.location = <span class="code-string">"Hyderabad, India"</span>
+        self.education = <span class="code-string">"B.Tech CSE (AI & ML)"</span>
+        self.college = <span class="code-string">"Malla Reddy Engineering College"</span>
+        self.current_gpa = <span class="code-number">8.78</span>
+
+    <span class="code-keyword">def</span> <span class="code-method">get_passion</span>(self):
+        <span class="code-keyword">return</span> [
+            <span class="code-string">"Building intelligent AI systems"</span>,
+            <span class="code-string">"Crafting modern web applications"</span>,
+            <span class="code-string">"Solving complex algorithmic challenges"</span>
+        ]</code></pre>
+                        </div>
+                    </div>
+
+                    <div class="about-info" data-aos="fade-left" data-aos-delay="200">
+                        <h3 class="about-subtitle">AI/ML Specialist & Full Stack Developer</h3>
+                        <p class="about-text">
+                            Highly motivated Computer Science & Engineering student specializing in Artificial Intelligence and Machine Learning with strong expertise in Full Stack Development, Python Programming, and modern web technologies. Passionate about building impactful software solutions and solving real-world problems through technology.
+                        </p>
+                        
+                        <div class="about-details-list">
+                            <div class="detail-item">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div>
+                                    <h4>Degree & Specialization</h4>
+                                    <p>B.Tech Computer Science & Engineering (AI & ML)</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-school"></i>
+                                <div>
+                                    <h4>University / College</h4>
+                                    <p>Malla Reddy Engineering College (MREC), Hyderabad</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-award"></i>
+                                <div>
+                                    <h4>Academic Excellence</h4>
+                                    <p>GPA: 8.78 / 10</p>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Hyderabad, India (Open to Relocation / Remote)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. STATS SECTION -->
+                <div class="stats-container" id="stats-section">
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Technologies Mastered</div>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="stat-icon-wrapper">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <div class="stat-number" data-target="8.78" data-decimal="true">0</div>
+                        <div class="stat-label">GPA (B.Tech)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SKILLS SECTION -->
+        <section id="skills" class="skills-section sec-padding bg-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-heading">My Toolkit</span>
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Skill Categories Navigation -->
+                <div class="skills-tabs" data-aos="fade-up" data-aos-delay="100">
+                    <button class="tab-btn active" data-category="all">All Skills</button>
+                    <button class="tab-btn" data-category="programming">Programming</button>
+                    <button class="tab-btn" data-category="frontend">Frontend</button>
+                    <button class="tab-btn" data-category="backend">Backend & DB</button>
+                    <button class="tab-btn" data-category="aiml">AI & ML</button>
+                </div>
+
+                <!-- Skill Cards Grid -->
+                <div class="skills-grid" id="skills-grid" data-aos="fade-up" data-aos-delay="200">
+                    
+                    <!-- Programming -->
+                    <div class="skill-card-wrapper" data-category="programming">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-brands fa-python"></i></span>
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-card-wrapper" data-category="programming">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-brands fa-java"></i></span>
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="programming">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-solid fa-code"></i></span>
+                                <span class="skill-name">C Programming</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Frontend -->
+                    <div class="skill-card-wrapper" data-category="frontend">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-brands fa-html5"></i></span>
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="frontend">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-brands fa-css3-alt"></i></span>
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="frontend">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-brands fa-js"></i></span>
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="88%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="frontend">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-brands fa-react"></i></span>
+                                <span class="skill-name">React</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend & DB -->
+                    <div class="skill-card-wrapper" data-category="backend">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-brands fa-node-js"></i></span>
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="backend">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-solid fa-server"></i></span>
+                                <span class="skill-name">Express.js</span>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="82%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="backend">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-solid fa-leaf"></i></span>
+                                <span class="skill-name">MongoDB</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="80%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="backend">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-solid fa-database"></i></span>
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI & ML -->
+                    <div class="skill-card-wrapper" data-category="aiml">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-solid fa-network-wired"></i></span>
+                                <span class="skill-name">TensorFlow</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="aiml">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-solid fa-gears"></i></span>
+                                <span class="skill-name">PyTorch</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="aiml">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-solid fa-calculator"></i></span>
+                                <span class="skill-name">Scikit Learn</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="88%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="aiml">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-solid fa-table"></i></span>
+                                <span class="skill-name">Pandas & NumPy</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="92%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card-wrapper" data-category="aiml">
+                        <div class="skill-card">
+                            <div class="skill-info">
+                                <span class="skill-icon"><i class="fa-solid fa-chart-simple"></i></span>
+                                <span class="skill-name">Matplotlib & Seaborn</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-progress-bar">
+                                <div class="skill-progress-fill" data-progress="90%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. PROJECTS SECTION -->
+        <section id="projects" class="projects-section sec-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-heading">My Creations</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    
+                    <!-- Blood Donation App -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-card-image">
+                            <!-- Visual Graphic Overlay/Mockup instead of empty background -->
+                            <div class="project-img-fallback app-blood-donation">
+                                <i class="fa-solid fa-droplet"></i>
+                            </div>
+                            <div class="project-hover-overlay">
+                                <div class="project-actions">
+                                    <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repo" class="proj-link-btn">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="#" class="proj-link-btn" aria-label="Live Demo">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-tags">
+                                <span class="badge">React</span>
+                                <span class="badge">Node.js</span>
+                                <span class="badge">Express.js</span>
+                                <span class="badge">MongoDB</span>
+                            </div>
+                            <h3 class="project-title">Blood Donation App</h3>
+                            <p class="project-description">
+                                Developed a full-stack application connecting blood donors with recipients through authentication and location-based search. Featuring secure signup, live user dashboard, and response coordination.
+                            </p>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-circle-check"></i> Responsive UI</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Secure Authentication</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Location Search</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Donor Management</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm">
+                                    <i class="fa-solid fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image Cryptography -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-card-image">
+                            <div class="project-img-fallback app-cryptography">
+                                <i class="fa-solid fa-key"></i>
+                            </div>
+                            <div class="project-hover-overlay">
+                                <div class="project-actions">
+                                    <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repo" class="proj-link-btn">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="#" class="proj-link-btn" aria-label="Live Demo">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-tags">
+                                <span class="badge">Python</span>
+                                <span class="badge">Cryptography</span>
+                                <span class="badge">Security</span>
+                            </div>
+                            <h3 class="project-title">Image Cryptography</h3>
+                            <p class="project-description">
+                                Implemented advanced image encryption algorithms combining AES, RSA, and chaotic map techniques to secure transmission and storage of sensitive visual data. Provides high-speed encryption with robust security matrices.
+                            </p>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-circle-check"></i> AES & RSA Hybrid</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Chaotic Map Shuffling</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Histogram Flattening</li>
+                                <li><i class="fa-solid fa-circle-check"></i> High Entropy Output</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm">
+                                    <i class="fa-solid fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Smart Attendance System -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-card-image">
+                            <div class="project-img-fallback app-attendance">
+                                <i class="fa-solid fa-circle-user"></i>
+                            </div>
+                            <div class="project-hover-overlay">
+                                <div class="project-actions">
+                                    <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repo" class="proj-link-btn">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="#" class="proj-link-btn" aria-label="Live Demo">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-tags">
+                                <span class="badge">Python</span>
+                                <span class="badge">OpenCV</span>
+                                <span class="badge">Face Recognition</span>
+                                <span class="badge">Excel Auto</span>
+                            </div>
+                            <h3 class="project-title">Smart Attendance System</h3>
+                            <p class="project-description">
+                                Real-time face recognition attendance system using CCTV camera feeds and automated attendance spreadsheets, processing multiple faces simultaneously with fast frame rates and high accuracy.
+                            </p>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-circle-check"></i> Real-time OpenCV Stream</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Automated Excel Log</li>
+                                <li><i class="fa-solid fa-circle-check"></i> 98.4% Accuracy</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Multi-Face Tracking</li>
+                            </ul>
+                            <div class="project-card-footer">
+                                <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm">
+                                    <i class="fa-solid fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. EDUCATION TIMELINE -->
+        <section id="education" class="education-section sec-padding bg-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-heading">Academic Journey</span>
+                    <h2 class="section-title">Education Timeline</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline Line -->
+                    <div class="timeline-line"></div>
+
+                    <!-- MREC -->
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023 - Present</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Malla Reddy Engineering College</h3>
+                            <span class="timeline-degree">B.Tech Computer Science & Engineering (AI & ML)</span>
+                            <p class="timeline-details">
+                                Currently pursuing specialized studies in AI, Neural Networks, Deep Learning, and Web Technologies.
+                            </p>
+                            <div class="timeline-gpa">
+                                <span class="gpa-badge">GPA: 8.78 / 10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Race College -->
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021 - 2023</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Race College</h3>
+                            <span class="timeline-degree">Intermediate MPC (Maths, Physics, Chemistry)</span>
+                            <p class="timeline-details">
+                                Completed senior secondary school with a focus on advanced mathematics and sciences.
+                            </p>
+                            <div class="timeline-gpa">
+                                <span class="gpa-badge">Score: 96.8%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Krushi Vidyalayam -->
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020 - 2021</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Krushi Vidyalayam School</h3>
+                            <span class="timeline-degree">Secondary School Certificate (SSC)</span>
+                            <p class="timeline-details">
+                                Finished secondary schooling with perfect academic scoring.
+                            </p>
+                            <div class="timeline-gpa">
+                                <span class="gpa-badge">Score: 10 GPA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. CERTIFICATIONS -->
+        <section id="certifications" class="certifications-section sec-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-heading">Skills Validation</span>
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    
+                    <!-- Cert 1 -->
+                    <div class="cert-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="cert-icon-box">
+                            <i class="fa-solid fa-chart-column"></i>
+                        </div>
+                        <div class="cert-body">
+                            <h3 class="cert-title">Data Visualization Using Python</h3>
+                            <span class="cert-issuer">Cognitive Class / IBM</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="cert-icon-box">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <div class="cert-body">
+                            <h3 class="cert-title">Python Data Structures</h3>
+                            <span class="cert-issuer">Coursera</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="cert-icon-box">
+                            <i class="fa-solid fa-flask"></i>
+                        </div>
+                        <div class="cert-body">
+                            <h3 class="cert-title">Python For Data Science</h3>
+                            <span class="cert-issuer">Cognitive Class</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="cert-icon-box">
+                            <i class="fa-solid fa-terminal"></i>
+                        </div>
+                        <div class="cert-body">
+                            <h3 class="cert-title">C And Python Programming Workshop</h3>
+                            <span class="cert-issuer">College Workshop</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 5 -->
+                    <div class="cert-card" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="cert-icon-box">
+                            <i class="fa-solid fa-language"></i>
+                        </div>
+                        <div class="cert-body">
+                            <h3 class="cert-title">Business English Certification</h3>
+                            <span class="cert-issuer">Cambridge English</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- 9. ACHIEVEMENTS -->
+                <div class="achievements-section-inner">
+                    <div class="section-header" data-aos="fade-up">
+                        <span class="sub-heading">Notable Milestones</span>
+                        <h2 class="section-title">Achievements</h2>
+                        <div class="title-underline"></div>
+                    </div>
+                    
+                    <div class="achievements-grid">
+                        <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+                            <div class="ach-badge">🏆</div>
+                            <h3>Physics Champion</h3>
+                            <p>Winner - Fundamentals of Physics Quiz</p>
+                        </div>
+                        
+                        <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+                            <div class="ach-badge">🎤</div>
+                            <h3>Event Host</h3>
+                            <p>Hosted VISHESH 2K24 Technical Event</p>
+                        </div>
+                        
+                        <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+                            <div class="ach-badge">🎓</div>
+                            <h3>Official Anchor</h3>
+                            <p>Graduation Ceremony Anchor (Twice)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- 10. GITHUB SECTION -->
+        <section id="github" class="github-section sec-padding bg-alt">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-heading">Open Source Contributions</span>
+                    <h2 class="section-title">GitHub Profile</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="github-card" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Loading skeleton -->
+                    <div id="github-loading" class="github-skeleton">
+                        <div class="spinner"></div>
+                        <p>Syncing developer stats from GitHub...</p>
+                    </div>
+
+                    <!-- Real content loaded via JS -->
+                    <div id="github-content" class="github-profile-content hide">
+                        <div class="github-header">
+                            <div class="github-user-info">
+                                <img src="" alt="GitHub Avatar" id="github-avatar" class="github-avatar">
+                                <div>
+                                    <h3 id="github-name" class="github-user-name">Bogala Akhilash Reddy</h3>
+                                    <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" class="github-username-link">
+                                        @BOGALA-AKHILASH-REDDY <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                                <i class="fa-brands fa-github"></i> Follow Profile
+                            </a>
+                        </div>
+
+                        <div class="github-stats-grid">
+                            <div class="github-stat-item">
+                                <span class="stat-value" id="github-repos-count">-</span>
+                                <span class="stat-name">Public Repositories</span>
+                            </div>
+                            <div class="github-stat-item">
+                                <span class="stat-value" id="github-followers-count">-</span>
+                                <span class="stat-name">Followers</span>
+                            </div>
+                            <div class="github-stat-item">
+                                <span class="stat-value" id="github-following-count">-</span>
+                                <span class="stat-name">Following</span>
+                            </div>
+                        </div>
+
+                        <h4 class="github-repos-title"><i class="fa-solid fa-code-fork"></i> Featured Repositories</h4>
+                        <div class="github-repos-grid" id="github-repos-list">
+                            <!-- Populated dynamically -->
+                        </div>
+                        
+                        <!-- Heatmap styling -->
+                        <h4 class="github-heatmap-title"><i class="fa-solid fa-calendar-days"></i> Contribution Activity</h4>
+                        <div class="github-heatmap-wrapper">
+                            <div class="heatmap-header">
+                                <span>Mon</span>
+                                <span>Wed</span>
+                                <span>Fri</span>
+                            </div>
+                            <div class="github-heatmap-grid-visual" id="heatmap-grid">
+                                <!-- Populated dynamically by script.js -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. CONTACT SECTION -->
+        <section id="contact" class="contact-section sec-padding">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="sub-heading">Get In Touch</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    
+                    <!-- Contact Information -->
+                    <div class="contact-info-panel" data-aos="fade-right" data-aos-delay="100">
+                        <h3 class="contact-info-title">Let's build something epic!</h3>
+                        <p class="contact-info-desc">
+                            Feel free to reach out for internship opportunities, collaboration requests, or just to chat about AI/ML & Web Development.
+                        </p>
+
+                        <div class="contact-list">
+                            <div class="contact-card-item">
+                                <div class="icon-circle">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="item-text">
+                                    <span>Email me</span>
+                                    <a href="mailto:akhilashreddybogala@gmail.com">akhilashreddybogala@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-item">
+                                <div class="icon-circle">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="item-text">
+                                    <span>Call or WhatsApp</span>
+                                    <a href="tel:+919346749462">+91 9346749462</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-item">
+                                <div class="icon-circle">
+                                    <i class="fa-solid fa-map-location-dot"></i>
+                                </div>
+                                <div class="item-text">
+                                    <span>Location</span>
+                                    <p>Hyderabad, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials-wrapper">
+                            <h4>Connect with me</h4>
+                            <div class="contact-social-icons">
+                                <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-circle">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/bogala-akhilash-reddy-9116203a0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-circle">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                                <a href="mailto:akhilashreddybogala@gmail.com" aria-label="Email" class="social-circle">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                                <a href="tel:+919346749462" aria-label="Phone" class="social-circle">
+                                    <i class="fa-solid fa-phone"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel" data-aos="fade-left" data-aos-delay="200">
+                        <!-- Formspree Integration -->
+                        <form id="contact-form" action="https://formspree.io/f/xanygqpy" method="POST" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" required placeholder="e.g. John Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" required placeholder="e.g. john@example.com">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" required placeholder="Project collaboration, hiring opportunity...">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                            </div>
+
+                            <!-- Form Status Message -->
+                            <div id="form-status" class="form-status"></div>
+
+                            <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 12. FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">
+                    <span class="logo-accent">&lt;</span>AR<span class="logo-accent">/&gt;</span>
+                </a>
+                <p class="footer-tagline">AI/ML Engineer | Full Stack Developer</p>
+            </div>
+            
+            <div class="footer-socials">
+                <a href="https://github.com/BOGALA-AKHILASH-REDDY" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/bogala-akhilash-reddy-9116203a0" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:akhilashreddybogala@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="tel:+919346749462" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+            </div>
+
+            <div class="footer-divider"></div>
+            
+            <div class="footer-copyright">
+                <p>&copy; <span id="current-year">2026</span> Bogala Akhilash Reddy. All Rights Reserved.</p>
+                <p class="built-with">Designed & Built with <i class="fa-solid fa-heart animate-pulse"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+        <svg class="progress-ring" width="46" height="46">
+            <circle class="progress-ring-circle" stroke="#10B981" stroke-width="3" fill="transparent" r="20" cx="23" cy="23"/>
+        </svg>
+    </button>
+
+    <!-- External Scripts -->
+    <!-- GSAP & ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
